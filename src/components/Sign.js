@@ -11,7 +11,7 @@ function Sign() {
         const {name,email,mobile,password}=credentials
         console.log(credentials);
         //https://mernapp5.onrender.com
-        const response = await fetch("https://mernapp5.onrender.com/user/sign", {
+        const response = await fetch("https://mernapp6.onrender.com/user/sign", {
             method: 'POST',
             crossDomain: true,
             headers: {
