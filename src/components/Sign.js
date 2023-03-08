@@ -10,7 +10,7 @@ function Sign() {
         e.preventDefault();
         const {name,email,mobile,password}=credentials
         console.log(credentials);
-        //https://mernapp5.onrender.com
+        //https://mernapp5.onrender.com  http://localhost:5000/user/
         const response = await fetch("https://mernapp6.onrender.com/user/sign", {
             method: 'POST',
             crossDomain: true,
